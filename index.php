@@ -62,7 +62,7 @@ lon:position.coords.longitude
    }));
     }
    
-        const ws =new WebSocket("ws://34.105.111.99:8080/api/locations/curr");
+        const ws =new WebSocket("ws://34.105.111.99:8080");
         ws.addEventListener("open",e=>{
         });
             }
